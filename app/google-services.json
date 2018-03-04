@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "542002160638",
+    "firebase_url": "https://tagit-2cfc8.firebaseio.com",
+    "project_id": "tagit-2cfc8",
+    "storage_bucket": "tagit-2cfc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542002160638:android:b72eeb5793c4a2db",
+        "android_client_info": {
+          "package_name": "com.example.christopherdunne.tagit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542002160638-q533naqpl1p86vl74ttmeho8lbqilrat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.christopherdunne.tagit",
+            "certificate_hash": "ac29afece7b2a6c214de8898a0d471e907b7c8b9"
+          }
+        },
+        {
+          "client_id": "542002160638-9ch3v3j12tr721lq7heua250cg5fjej3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS5gYRr_Fglmr7wF_f4d16Evbil79hIR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542002160638-9ch3v3j12tr721lq7heua250cg5fjej3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

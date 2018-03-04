@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="com.example.christopherdunne.tagit.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText_User_EmailID"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/EditText_User_EmailID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText_User_Password"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:hint="Enter Your Email Here" />
+
+    <EditText
+        android:id="@+id/EditText_User_Password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:hint="Enter Your Password Here"
+        android:inputType="textPassword" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Button_SignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button_LoginActivity"
+        android:layout_alignParentStart="true"
+        android:text="Click Here To REGISTER" />
+
+    <Button
+        android:id="@+id/Button_LoginActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:text="ALREADY SIGNED UP ? LOGIN FROM HERE" />
+
+
+
+
+</RelativeLayout>
